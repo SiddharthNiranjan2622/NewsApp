@@ -29,19 +29,21 @@ const styles = StyleSheet.create({
         borderRadius: 15,
         elevation:2,
         padding:15,
-        marginBottom:10
+        marginBottom:10,
+        overflow:'hidden'
 
     },
     card: {
         borderRadius: 20,
-        backgroundColor: '#fff',
+        backgroundColor: 'white',
         overflow: 'hidden',
         marginBottom: 5,
     },
     image: {
         height: 45 / 100 * windowHeight,
         width: '100%',
-        minHeight: 250
+        minHeight: 250,
+        overflow:'hidden'
     },
     title: {
         fontSize: 30,
